@@ -1,11 +1,12 @@
-import React from 'react';
 import Imagem from '../../assets/image.jpg';
 import style from "./BarraLateral.module.scss";
-import Slider from 'react-slider';
+import Progressbar from '../Bars/ProgressBar';
+import Progressbar2 from '../Bars/ProgressBar2';
 
 
 
 function BarraLateral() {
+    
     return(
     <>
     
@@ -19,24 +20,16 @@ function BarraLateral() {
         <h1 className={style.Abilities}> Abilities </h1>
             
             <h3 className={style.rangeA}>HTML</h3>
-            <span className={"values"}>0%</span><span className={"valores"}>100%</span>
-            <small>Current Range: 100</small>
-            <Slider className={"slider"}/>
+                <Progressbar />
 
             <h3 className={style.rangeA}>Css</h3>
-            <span className={"values"}>0%</span><span className={"valores"}>100%</span>
-            <small>Current Range: 100</small>
-            <Slider className={"slider"}/>
+                <Progressbar2 />
 
             <h3 className={style.rangeA}>Javascript</h3>
-            <span className={"values"}>0%</span><span className={"valores"}>100%</span>
-            <small>Current Range: 100</small>
-            <Slider className={"slider"}/>
+                <Progressbar />
 
             <h3 className={style.rangeA}>React</h3>
-            <span className={"values"}>0%</span><span className={"valores"}>100%</span>
-            <small>Current Range: 100</small>
-            <Slider className={"slider"}/>
+                <Progressbar />
 
                 
             

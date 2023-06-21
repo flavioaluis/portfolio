@@ -1,0 +1,38 @@
+.progressbar {
+    width:300px;
+    height:20px;
+
+display:flex;
+flex-direction:row;
+justify-content: start;
+align-items:stretch;
+
+border-radius:60px;
+background-color:#999;
+box-shadow: 0px 0px 20px #111;
+
+overflow: hidden;
+
+}
+
+.bar {
+   width:95%;
+   background: rgb(255,174,105);
+   background: linear-gradient (
+        180deg,
+        rgba(255, 174, 105,1) 0%,
+        rgba(255,173,102,1) 32%,
+        rgba(255,132,25,1) 100%
+   );
+}
+
+.bar2 {
+    width:90%;
+    background: rgb(255,174,105);
+    background: linear-gradient (
+         180deg,
+         rgba(255, 174, 105,1) 0%,
+         rgba(255,173,102,1) 32%,
+         rgba(255,132,25,1) 100%
+    );
+ }
