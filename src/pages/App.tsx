@@ -8,7 +8,7 @@ import BarraLateral from '../components/BarraLateral';
 function App() {
   return (
     <div className={style.AppStyle}>
-    <BarraLateral />
+    <BarraLateral  />
     <Home /> 
       
     </div>
