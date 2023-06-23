@@ -1,6 +1,10 @@
-.listaTarefas {
-    grid-area: tarefas;
-    height: 100%;
+  .columns{
+      width:100%;
+      height:80vh;
+      display:flex;
+      flex-direction:row;
+      
+  }
   
     h2 {
       font-size: 1.25rem;
@@ -14,21 +18,6 @@
       overflow-y: scroll;
         scrollbar-width: thin;
     }
-  
-    @media screen and (min-width:1280px) {
-      
-      h2{
-        text-align: center;
-        font-size: 2.25rem;
-        margin-bottom: 24px;
-      }
-  
-      ul {
-        overflow: auto;
-        max-height: 500px;
-      }
-    }
-  }
   
  
     h3 {

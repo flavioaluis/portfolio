@@ -27,7 +27,7 @@ function BarraLateral() {
     const [progress2, setProgress2] = useState(0);
     useEffect(() => {
         const id = setInterval(() => {
-            setProgress2(Math.random()*(100 - 80)+ 80);
+            setProgress2(Math.random()*(100 - 85)+ 85);
         },3000);
         return () => {
             clearInterval(id);
