@@ -1,8 +1,9 @@
 import React from 'react';
+import style from './Principal.module.scss'
 
 function Teste() {
 return(
-    <div>
+    <div className={style.Resume}>
     <h2> Ascenda seu negócio digital a um novo patamar 
                 com um <strong>trabalho de qualidade!</strong>
     </h2>
