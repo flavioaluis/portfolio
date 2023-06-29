@@ -1,18 +1,19 @@
 import React from 'react';
 import style from './Home.module.scss';
-import BarraLateral from '../BarraLateral';
-import Principal from '../Principal';
+import Resume from '../Resume';
+import Image from '../Image';
+
 
 
 
 function Home() {
     return (
         <aside className={style.columns}>
-            <div>
-                <BarraLateral />
+             <div>
+                <Image />
             </div>
             <div>
-                <Principal />
+                <Resume />
             </div>
             
                 
