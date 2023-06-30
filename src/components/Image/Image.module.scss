@@ -1,6 +1,4 @@
 .Attributes {
-    width:125%;
-    height:80vh;
     display:flex;
     flex-direction:column;
     justify-content: flex-start;
@@ -28,13 +26,29 @@
     inset:-20px 0px;
 }
 
+.iContent {
+    margin:0;
+    padding:0;
+    display:flex;
+}
 .SocIcons {
-    width:200px;
-    border: 1px;
+    font-size:2px;
+    padding: 18px;
+    border: 2px solid #00ccff;
+    border-style:dashed;
+    border-radius:10%;
 }
 .title {
-    padding:20px 0;
+    padding:40px 0 0 0 ;
     font-size:26px;
+    font-weight: bold;
+}
+
+.titleAnimated {
+    font-size: 30px;
+    font-weight: bold;
+    color:#00ccff;
+
 }
 
 @keyframes animate 
