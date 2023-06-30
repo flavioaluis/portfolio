@@ -3,6 +3,7 @@ import style from './Home.module.scss';
 import Image from '../../components/Image';
 import Resume from '../../components/Resume';
 import AboutMe from '../../components/AboutMe';
+import Footer from '../../components/Footer';
 
 
 
@@ -20,6 +21,7 @@ function Home() {
             </aside>
             
                 <AboutMe/>
+                <Footer />
         </>
     )
 }
