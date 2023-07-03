@@ -4,12 +4,12 @@ import NavBar from '../../components/NavBar';
 import Image from '../../components/Image';
 import Resume from '../../components/Resume';
 import AboutMe from '../../components/AboutMe';
-import Footer from '../../components/Footer';
-
+import AnimatedCardSection from '../../components/AnimatedCardSection';
 
 
 
 function Home() {
+
     return (
         <>
             <aside className={style.columns}>
@@ -24,9 +24,17 @@ function Home() {
                     <Resume />
                 </div>  
             </aside>
-            
-                <AboutMe/>
-                <Footer />
+                <div>
+                    <AboutMe/>
+                </div>
+                <div>
+                    <AnimatedCardSection />
+                    
+                </div>
+                
+               
+                
+               
         </>
     )
 }
