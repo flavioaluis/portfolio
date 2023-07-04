@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import style from './Card.module.scss';
 
 function AnimatedCard() {
   const cardVariants = {
@@ -9,7 +10,7 @@ function AnimatedCard() {
 
   return (
     <motion.div
-      className="card"
+      className={style.card}
       variants={cardVariants}
       initial="hidden"
       animate="visible"

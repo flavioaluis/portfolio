@@ -1,0 +1,16 @@
+.cardContainer {
+    width: fit-content;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    
+}
+
+.cardSection {
+    margin:4em;
+}
+.cardSection h1{
+    margin:2em;
+    font-size:2.5em;
+
+}

@@ -5,8 +5,9 @@ import AnimatedCard from './Cards/index';
 function AnimatedCardSection()  {
   return (
     <div className={style.cardSection}>
-      <h1>Seção de Cards Animados</h1>
-      <div className="card-container">
+      <h1>Portfólio</h1>
+      <div className={style.cardContainer}>
+        <AnimatedCard />
         <AnimatedCard />
         <AnimatedCard />
         <AnimatedCard />

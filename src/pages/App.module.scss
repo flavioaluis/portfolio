@@ -1,11 +1,8 @@
 .AppStyle {
     row-gap: 24px;
-    min-width: 320px;
+    min-width: 300px;
     min-height: calc(100vh - 32px);
     width: 100%;
-    padding: 32px;
-    box-sizing: border-box;
-    border-radius: 10px;
     background-color: #171717;
   
     @media screen and (min-width:1280px)  {
