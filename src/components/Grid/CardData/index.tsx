@@ -9,20 +9,20 @@ const CardData = [
     },
 
     {
-        img: Trabalho2,
+        img: Trabalho1,
         title: "Trabalho2",
         description:"LoremLoremLoremLoremLorem",
     },
 
     {
         img: Trabalho1,
-        title: "Trabalho1",
+        title: "Trabalho3",
         description:"LoremLoremLoremLorem",
     },
 
     {
-        img: Trabalho2,
-        title: "Trabalho2",
+        img: Trabalho1,
+        title: "Trabalho4",
         description:"LoremLoremLoremLoremLorem",
     },
 ];

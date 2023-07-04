@@ -6,7 +6,7 @@ import Resume from '../../components/Resume';
 import AboutMe from '../../components/AboutMe';
 import Card from '../../components/Grid/Cards';
 import CardData from '../../components/Grid/CardData'
-
+import Footer from '../../components/Footer';
 
 
 
@@ -31,8 +31,8 @@ function Home() {
                 </div>
                 <div className={style.Section}>
                     <Card details={CardData}/>
-                    
                 </div>
+                <Footer />
                 
                
                 

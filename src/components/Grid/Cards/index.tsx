@@ -21,6 +21,7 @@ function Card(props:CardProps) {
 			<p className={style.cardDescription}>
 				{value.description}
 			</p>
+			<a href="">Demo</a> <a href="">Git</a>
 		</div>
 	 </div>
 	 ))}
