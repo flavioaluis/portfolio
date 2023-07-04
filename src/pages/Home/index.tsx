@@ -4,7 +4,9 @@ import NavBar from '../../components/NavBar';
 import Image from '../../components/Image';
 import Resume from '../../components/Resume';
 import AboutMe from '../../components/AboutMe';
-import AnimatedCardSection from '../../components/AnimatedCardSection';
+import Card from '../../components/Grid/Cards';
+import CardData from '../../components/Grid/CardData'
+
 
 
 
@@ -27,8 +29,8 @@ function Home() {
                 <div>
                     <AboutMe/>
                 </div>
-                <div>
-                    <AnimatedCardSection />
+                <div className={style.Section}>
+                    <Card details={CardData}/>
                     
                 </div>
                 

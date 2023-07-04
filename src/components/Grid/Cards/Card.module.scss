@@ -1,0 +1,45 @@
+.titleCard {
+    margin:1.5em 0 1em 0  ;
+    font-size:3em;
+}
+
+.card {
+    border:1px solid black;
+    box-shadow: 0 0 5px black;
+    width:25em;
+    margin:2em;
+}
+
+.cardImage {
+    position:relative;
+    width:100%;
+    height:100%;
+    
+
+    img {
+        width: 100%;
+            height: 100%;
+            object-fit: cover;
+    }
+}
+
+.cardTitle, .cardDescription {
+    text-align:center;
+    margin:0;
+    padding:0.5em;
+}
+
+.cardTitle {
+    font-weight: bold;
+    font-size:1.5em;
+}
+
+.cardDescription {
+    font-size:0.6em;
+}
+.card a {
+    margin:0.5em;
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}

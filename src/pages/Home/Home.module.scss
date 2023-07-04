@@ -66,8 +66,7 @@ body {
 
 	font-family: 'Manjari', sans-serif;
 	color: #F0F0F0;
-	height: 100%;
-	width: 100%;
+	
 }	
 
 .columns{
@@ -77,6 +76,12 @@ body {
   
 }
 
-.cardContainer {
+.Section {
+	width:80%;
+	text-align:center;
+	margin-left:10%;
+}
+
+.Section {
 	display:flex;
 }
