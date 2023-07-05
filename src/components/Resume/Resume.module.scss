@@ -21,4 +21,23 @@ p {
 }
 
 
+@media (max-width: 768px) {
+	
+  .Resume1 {
+      display:none;
+  }
 
+}
+  
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  h2 {
+    padding:30px;
+    font-size: 2rem;
+  }
+ 
+  p {
+    font-size: 1.5rem;
+  }
+
+}

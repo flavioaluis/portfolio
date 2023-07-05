@@ -4,6 +4,25 @@
     justify-content: center;
 }
 .textMe {
-    font-size:1.8em;
+    font-size:1.4em;
     color:#fff;
+    text-align: center;;
+}
+
+@media (max-width: 768px) {
+	.textMe {
+        padding:0.5em;
+        font-size: 1.2em;
+    }   
+
+	
+  }
+  
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .textMe {
+        padding:1em;
+        font-size: 1.2em;
+    }   
+
 }

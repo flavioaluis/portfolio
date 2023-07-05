@@ -78,6 +78,7 @@ body {
 
 .Section {
 	width:80%;
+	align-items: center;
 	text-align:center;
 	margin-left:10%;
 }
@@ -85,3 +86,32 @@ body {
 .Section {
 	display:flex;
 }
+
+@media (max-width: 768px) {
+
+	.columns{
+		height:65vh;
+		display:block;
+		flex-direction:row;
+		margin-bottom:4em;
+		
+	  }
+
+	.Section {
+		padding-bottom: 30px;
+		flex-wrap: wrap;
+	}
+	
+  }
+  
+@media (min-width: 769px) and (max-width: 1024px) {
+	.Section {
+		padding-bottom: 30px;
+		flex-wrap: wrap;
+	}
+	
+  }
+  
+@media (min-width: 1025px) {
+	/* Styles for large screens */
+  }

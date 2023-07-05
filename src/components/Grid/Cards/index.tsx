@@ -13,15 +13,16 @@ function Card(props:CardProps) {
 	<>
 	{props.details.map((value, index) => (
      <div className={style.card} key={index}>
-		<div className={style.cardImage}>
-			<img src={value.img}  alt="Trabalho1"/>
-		</div>
-		<div>
-			<h3 className={style.cardTitle}>{value.title}</h3>
+		<h3 className={style.cardTitle}>{value.title}</h3>
 			<p className={style.cardDescription}>
 				{value.description}
 			</p>
 			<a href="">Demo</a> <a href="">Git</a>
+		
+		<div>
+			<div className={style.cardImage}>
+				<img src={value.img}  alt="Trabalho1"/>
+			</div>
 		</div>
 	 </div>
 	 ))}

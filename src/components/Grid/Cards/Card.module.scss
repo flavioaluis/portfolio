@@ -42,3 +42,19 @@
     margin:0.5em;
     margin-right: 0.7em;
 }
+
+
+@media (max-width: 768px) {
+	.card {
+        width:80%;
+	}
+	
+  }
+  
+@media (min-width: 769px) and (max-width: 1024px) {
+
+.card {
+    width:40%;
+    margin:1em;
+}
+}
