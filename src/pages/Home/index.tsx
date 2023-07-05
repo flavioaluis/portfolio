@@ -22,16 +22,16 @@ function Home() {
                 <div>
                     <Image />
                 </div>
-                <div>
+                <section id="section1">
                     <Resume />
-                </div>  
+                </section>  
             </aside>
-                <div>
+                <section >
                     <AboutMe/>
-                </div>
-                <div className={style.Section}>
+                </section>
+                <section id="section2" className={style.Section}>
                     <Card details={CardData}/>
-                </div>
+                </section>
                 <Footer />
                 
                
