@@ -1,5 +1,7 @@
 import React from 'react';
 import style from './Card.module.scss';
+import { FaGithub } from "@react-icons/all-files/fa/FaGithub" ;
+import { FaBoxOpen} from "@react-icons/all-files/fa/FaBoxOpen" ;
 
 type CardProps = {
 	details: Array<{
@@ -19,7 +21,7 @@ function Card(props:CardProps) {
 			<p className={style.cardDescription}>
 				{value.description}
 			</p>
-			<a href={value.link}>Demo</a> <a href={value.link2}>Git</a>
+			<a href={value.link}><FaBoxOpen size={25}/>&nbsp;&nbsp;Demo</a> <a href={value.link2}><FaGithub size={25}/>&nbsp;&nbsp;Git</a>
 		
 		<div>
 			<div className={style.cardImage}>

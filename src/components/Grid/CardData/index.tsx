@@ -1,7 +1,7 @@
 import aStudies  from '../../../assets/aStudies.png';
 import Tracker from '../../../assets/Tracker.png';
 import formNegocio from '../../../assets/formNegocios.png';
-import teste from '../../../assets/teste.png';
+import MViagem from '../../../assets/MViagem.png';
 
 const CardData = [
     {
@@ -29,11 +29,11 @@ const CardData = [
     },
 
     {
-        img: teste,
-        title: "Adivinhação e Jogo da Forca (Python)",
-        description:"LoremLoremLoremLoremLorem",
-        link:"",
-        link2:"",
+        img: MViagem,
+        title: "Mochila de Viagem (JavaScript)",
+        description:"Programa para botar todas os itens em uma bolsa",
+        link:"https://m-viagem.vercel.app/",
+        link2:"https://github.com/flavioaluis/MViagem",
     },
 ];
 
