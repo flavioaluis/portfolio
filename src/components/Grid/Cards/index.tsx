@@ -6,6 +6,8 @@ type CardProps = {
 		img: string;
 		title: string;
 		description: string;
+		link:string;
+		link2:string;
 	  }>;
 }
 function Card(props:CardProps) {
@@ -17,7 +19,7 @@ function Card(props:CardProps) {
 			<p className={style.cardDescription}>
 				{value.description}
 			</p>
-			<a href="">Demo</a> <a href="">Git</a>
+			<a href={value.link}>Demo</a> <a href={value.link2}>Git</a>
 		
 		<div>
 			<div className={style.cardImage}>
