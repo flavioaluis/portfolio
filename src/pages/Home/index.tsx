@@ -4,6 +4,7 @@ import NavBar from '../../components/NavBar';
 import Image from '../../components/Image';
 import Resume from '../../components/Resume';
 import AboutMe from '../../components/AboutMe';
+import Teste from '../../components/CardTeste';
 import Card from '../../components/Grid/Cards';
 import CardData from '../../components/Grid/CardData'
 import Footer from '../../components/Footer';
@@ -30,6 +31,7 @@ function Home() {
                 <section >
                     <AboutMe/>
                 </section>
+                <Teste/>
                 <section id="section2" className={style.Section}>
                     <Card details={CardData}/>
                 </section>
