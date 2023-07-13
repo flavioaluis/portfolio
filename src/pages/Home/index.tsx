@@ -4,9 +4,11 @@ import NavBar from '../../components/NavBar';
 import Image from '../../components/Image';
 import Resume from '../../components/Resume';
 import AboutMe from '../../components/AboutMe';
-import Card from '../../components/Grid/Cards';
+import Menu from '../../components/Grid/Menu';
+import Projects from '../../components/Grid/Projects';
 import CardData from '../../components/Grid/CardData'
 import Footer from '../../components/Footer';
+
 
 
 
@@ -30,9 +32,9 @@ function Home() {
                 <section >
                     <AboutMe/>
                 </section>
-                <Teste/>
                 <section id="section2" className={style.Section}>
-                    <Card details={CardData}/>
+                        <Menu />
+                    
                 </section>
                 <Footer />
                 

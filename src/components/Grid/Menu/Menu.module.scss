@@ -1,0 +1,40 @@
+.menu{
+    margin:4em 0em;
+	align-items: center;
+	text-align:center;
+    text-decoration: none !important;
+    
+
+  }
+  
+  .menu h2{
+    margin:1em;
+    font-size:45px;
+    font-weight:700;
+    text-align:center;
+  }
+  
+  .menu p {
+    color: #B8B8B8;
+    font-size:18px;
+    letter-spacing: 0.8px;
+    line-height:1.5em;
+    margin: 14px auto 30px auto;
+    text-align:center;
+    width:56%;
+  }
+  
+  .navPills {
+    display:flex;
+    justify-content: center;
+  }
+  
+  .navItem{
+    margin:0em 4em 0em 4em;
+    font-size:1.2em;
+    font-weight:700;
+  }
+
+.projects {
+    display:flex;
+}
