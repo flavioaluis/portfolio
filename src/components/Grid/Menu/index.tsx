@@ -10,7 +10,7 @@ function Menu() {
             <Row>
                 <Col>
                     <h2>Projects</h2>
-                    <p>Lorem Ipsum is simply dummy text of the project and typesetting industry. lorem ipsum is awesome</p>
+                    <p className={style.pMenu}>Lorem Ipsum is simply dummy text of the project and typesetting industry. lorem ipsum is awesome</p>
                     <Tab.Container id={style.projectsTabs} defaultActiveKey="first">
                     <Nav variant="pills" className={style.navPills} id={style.pillsTab}>
                             <Nav.Item className={style.navItem}>
