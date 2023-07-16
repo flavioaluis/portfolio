@@ -1,65 +1,67 @@
-.titleCard {
-    margin:1.5em 0 1em 0  ;
-    font-size:3em;
-}
-
-.card {
+.projCard{
     border:1px solid black;
     box-shadow: 0 0 5px black;
-    width:25em;
-    margin:2em;
-}
+    margin:1em;
+    position: relative;
+    border-radius: 1.5em;
+    overflow: hidden;
+    margin-bottom: 1.2em;
+  }
 
-.cardImage {
-    position:relative;
-    width:100%;
-    height:100%;
+  .projCard img {
     
+    width: 100%;
+    height: auto;
+  }
 
-    img {
-        width: 100%;
-            height: 100%;
-            object-fit: cover;
-    }
-}
+  
+  .projCard::before {
+    content: "";
+    background: linear-gradient(90.21deg, #7a487c -5.91%, #4A2FBD 111.58%);
+    opacity: 0.85;
+    position: absolute;
+    width: 100%;
+    height: 0;
+    transition: 0.4s ease-in-out;
+  }
+  .projCard:hover::before {
+    height: 100%;
+  }
+  .cardTxt {
+    position: absolute;
+    text-align: center;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+    width: 100%;
+  }
+  .projCard:hover .cardTxt {
+    top: 50%;
+    opacity: 1;
+  }
+  .cardTxt h4 {
+    font-size: 1.4em;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1.1em;
+  }
+  .cartTxt span {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.8px;
+  }
 
-.cardTitle, .cardDescription {
-    text-align:center;
-    margin:0;
-    padding:0.5em;
-}
-
-.cardTitle {
-    font-weight: bold;
-    font-size:1.5em;
-}
-
-.cardDescription {
-    font-size:0.6em;
-}
-.card a {
+  .projCard a {
     display: inline-block;
     font-size: 1.2em;
     margin:0.5em;
-    padding:0.4em;
+    padding:0.2em 0.8em 0.2em 0.8em;
     margin-right: 0.7em;
-    border: 2px dashed #00ccff;
-    border-radius: 0.5em;
+    border: 2px ridge #00ccff;
+    border-radius: 1.5em;
 }
 
-
-@media (max-width: 768px) {
-	.card {
-        width:80%;
-	}
-	
-  }
-  
-@media (min-width: 769px) and (max-width: 1024px) {
-
-.card {
-    width:40%;
-    margin:1em;
-}
-}
 

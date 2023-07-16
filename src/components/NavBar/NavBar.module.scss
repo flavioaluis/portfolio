@@ -2,7 +2,7 @@
     position:absolute;
     display:flex;
     width:100%;
-    justify-content: end;
+    justify-content: flex-end;
     background-color: transparent; 
     position:fixed;
 
@@ -11,10 +11,10 @@
 
  .Menu li {
     margin:1em;
-    border: 2px dashed #00ccff;
-    border-radius: 10%;;
+    border: 2px ridge #00ccff;
+    border-radius: 1.5em;
     font-size: 1.66em;
-    padding:0.3em;
+    padding:0.5em 0.6em 0.3em 0.6em;
 }
 
 @media (max-width: 768px) {

@@ -5,7 +5,7 @@ import MViagem from '../../../assets/MViagem.png';
 
 const CardData = [
     {
-        img: Tracker,
+        imgUrl: Tracker,
         title: "Program Alura Tracker (Vue)",
         description:"Um programa para marcar o horário de estudo ou exercícios ",
         link:"https://a-track-flavioaluis.vercel.app/",
@@ -13,7 +13,7 @@ const CardData = [
     },
 
     {
-        img: aStudies,
+        imgUrl: aStudies,
         title: "Program Alura Studies (React)",
         description:"Um programa para marcar horários de estudos para o dia",
         link:"https://alura-studies-flax-gamma.vercel.app/",
@@ -21,7 +21,7 @@ const CardData = [
     },
 
     {
-        img: formNegocio,
+        imgUrl: formNegocio,
         title: "Form de Negociação (Typescript)",
         description:"Formulário de negócios com data quantidade e valor",
         link:"https://form-negocios.vercel.app/",
@@ -29,7 +29,7 @@ const CardData = [
     },
 
     {
-        img: MViagem,
+        imgUrl: MViagem,
         title: "Mochila de Viagem (JavaScript)",
         description:"Programa para botar todas os itens em uma bolsa",
         link:"https://m-viagem.vercel.app/",

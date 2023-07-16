@@ -1,10 +1,9 @@
 .menu{
-    margin:6em 0em;
-	align-items: center;
-	text-align:center;
-    text-decoration: none !important;
+    margin:1em 0em;
+	  align-items: center;
+	  text-align:center;
     
-
+  
   }
   
   .menu h2{
@@ -16,7 +15,7 @@
   
   .menu p {
     color: #B8B8B8;
-    font-size:18px;
+    font-size:1.5em;
     letter-spacing: 0.8px;
     line-height:1.5em;
     margin: 0em auto 1em auto;
@@ -24,17 +23,33 @@
   }
   
   .navPills {
-    
+    font-size:1.5em;
+    margin: 0em auto 1em auto;
     display:flex;
     justify-content: center;
   }
-  
+
   .navItem{
-    margin:0em 4em 0em 4em;
-    font-size:1.2em;
+    display: inline-block;
+    align-items: center;
+    font-size: 1.2em;
+    padding:0.5em 0.5em 0.2em 0.5em;
+    font-size:1.0em;
     font-weight:700;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+
   }
 
-.projects {
+
+  .rowProj{
     display:flex;
+    justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+	.rowProj{
+    margin-bottom:1em;
+    flex-direction: column;
+	}
 }
