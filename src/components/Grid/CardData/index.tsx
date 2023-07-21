@@ -1,7 +1,7 @@
-import aStudies  from '../../../assets/aStudies.png';
-import Tracker from '../../../assets/Tracker.png';
-import formNegocio from '../../../assets/formNegocios.png';
-import MViagem from '../../../assets/MViagem.png';
+import aStudies  from '../../../assets/ImgPortfolio/aStudies.png';
+import Tracker from '../../../assets/ImgPortfolio/Tracker.png';
+import formNegocio from '../../../assets/ImgPortfolio/formNegocios.png';
+import Aluroni from '../../../assets/ImgPortfolio/Aluroni.png';
 
 const CardData = [
     {
@@ -29,11 +29,11 @@ const CardData = [
     },
 
     {
-        imgUrl: MViagem,
-        title: "Mochila de Viagem (JavaScript)",
-        description:"Programa para botar todas os itens em uma bolsa",
-        link:"https://m-viagem.vercel.app/",
-        link2:"https://github.com/flavioaluis/MViagem",
+        imgUrl: Aluroni,
+        title: "Aluroni (React + TypeScript)",
+        description:"Site de um restaurante de vários tipos de refeições",
+        link:"https://aluroni-ashy.vercel.app/",
+        link2:"https://github.com/flavioaluis/aluroni",
     },
 ];
 
